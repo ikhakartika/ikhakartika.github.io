@@ -1,0 +1,164 @@
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+/* end font */
+
+/* star body */
+body    {
+    background-color: hotpink;
+    color: blanchedalmond;
+    font-family: caveat, 'Times New Roman', Times, serif;
+    font-size: larger;
+    line-height: normal;
+    margin: auto;
+    padding: 0%;
+}
+/* end body*/
+
+/* star debug */
+.bg-crismon {
+    background-color: lightsalmon;
+}
+
+.bg-aquamarine {
+    background-color: aquamarine;
+}
+.bg-pink {
+    background-color: blanchedalmond;
+}
+
+/*end debug */
+
+/*star container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* end container */
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start anchor / hyperlink */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: beige;
+
+}
+a:hover,
+a:activ {
+    color: blue;
+    text-decoration: blueviolet;
+
+}
+/* end anchor / hyperlink */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: aqua;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 8 rgba(0,0,0,.12);
+        
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0- 4px;
+}
+.menu-primer a {
+    color: blueviolet;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+}
+
+.menu-primer a:hover {
+    background-color: darkseagreen;
+    color: aqua;
+    text-decoration: none;
+
+}
+
+.menu-primer .active {
+    background-color: grey;
+    color: blueviolet;
+    text-decoration: aquamarine;
+}
+/* end menu primer */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* end heading */
+
+/* start jumbotron */
+.jumbotron {
+    color : black;
+    background-color: blanchedalmond;
+    border: 1px solid  #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+/* end jumbotron */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+
+/* end main */
+
+/* start box */
+
+
+/* end box */
+
